@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mighty Ducks Hockey League| Register</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/3.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <div><img class="imgregister" src="./assets/hockey3.jpg " alt="player "></div>
+    </header>
+
+    <nav class="menu ">
+        <div class="button" id="home"><a href="./index.html ">Home</a></div>
+        <div class="button" id="about"><a href="./about.html ">About MDHL</a> </div>
+        <div class="button" id="contact"><a href="./contact.html ">Contact</a></div>
+        <div class="button" id="game-info"><a href="./game-information.html ">Games</a></div>
+        <div class="button" id="rules"><a href="./rules-point.html ">Play Rules</a></div>
+        <div class="button" id="#"> <a href="#/">Register</a> </div>
+
+    </nav>
+
+    <div class="logo_register"><img class="logo " src="./assets/logo.png " alt="MDHL logo "></div>
+    <div class="general">
+        <main>
+            <section>
+                <div class="title_register">
+                    <h2>Registration Form</h2>
+                </div>
+                <div class="container_form">
+
+                    <form action="show_data.html" method="get">
+                        <div class="container_first">
+                            <div> <label for="get-name">First Name:</label>
+                                <input id="get-name" type="text" name="name"></div>
+                            <div><label for="get-lastname">Last Name:</label>
+                                <input id="get-lastname" type="text" name="lastname"></div>
+                            <div><label for="get-street">Street Address</label>
+                                <input id="get-street" type="text" name="street"></div>
+                            <div> <label for="get-city">City:</label>
+                                <input id="get-city" type="text" name="city"></div>
+                            <div><label for="get-code">Zid Code:</label>
+                                <input id="get-code" type="text" name="code"></div>
+                            <div> <label for="get-birthdate">Birthdate(mm/ddyyyy): </label>
+                                <input id="get-birthdate" type="date" name="birthdate"></div>
+                        </div>
+
+                        <p> Gender:</p>
+                        <div class="container_gender">
+                            <label for="get-male">
+                            <input id="get-male" type="radio" name="gender" value="Male"> Male</label>
+                            <label for="get-female">
+                            <input id="get-female" type="radio" name="gender" value="Female">Female</label>
+                        </div>
+
+                        <p>Grade:</p>
+                        <div class="container_grade">
+                            <input id="get-pre" type="radio" name="grade" value="Pre-Grade">Pre-Grade
+                            <input id="get-1" type="radio" name="grade" value="1st">1st
+                            <input id="get-2" type="radio" name="grade" value="2nd">2nd
+                            <input id="get-3" type="radio" name="grade" value="3rd">3rd
+                            <input id="get-4" type="radio" name="grade" value="4th">4th
+                            <input id="get-5" type="radio" name="grade" value="5th">5th
+
+                        </div>
+                        <h4>Which elementary school do you live near?</h4>
+                        <p> Closest School:</p>
+                        <div class="container_school">
+                            <div><input id="get-aj" type="radio" name="school" value="AJ Katzenmaier">AJ Katzenmaier</div>
+                            <div><input id="get-green" type="radio" name="school" value="Greenbay">Greenbay</div>
+                            <div><input id="get-howard" type="radio" name="school" value="Howard A Yeager">Howard A Yeager</div>
+                            <div><input id="get-marjorie" type="radio" name="school" value="Marjorie P Hart">Marjorie P Hart</div>
+                            <div><input id="get-north" type="radio" name="school" value="North Elementary">North Elementary</div>
+                            <div><input id="south" type="radio" name="school" value="South Elementary">South Elementary</div>
+                        </div>
+
+
+                        <p> What position(s) do you normally play? (check all that apply)</p>
+                        <div class="container_position">
+                            <input id="get-forward" type="checkbox" name="position" value="Forward"> Forward
+                            <input id="get-defense" type="checkbox" name="position" value="Defense">Defense
+                            <input id="get-midfield" type="checkbox" name="position" value="Midfield">Midfield
+                            <input id="goalkeeper" type="checkbox" name="position" value="Goalkeeper">Goalkeeper
+                        </div>
+
+                        <section class="permission">
+
+                            <h3>Permission to Play</h3>
+                            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey
+                                and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and voIunteers,incIuding
+                                the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which
+                                transportation By signing below, I here by agree andauthorizethe above.In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
+                            </p>
+                        </section>
+                        <div class="container_signature">
+                            <div> <label for="get-signature">Parent/Guardian Signature:</label>
+                                <input id="get-signature" type="text" name="signature"></div>
+                            <div> <label for="get-date">Date:</label>
+                                <input id="get-date" type="date" name="date"></div>
+                        </div>
+                        <div class="button_submit"><input type="submit" value="Submit"></div>
+
+                    </form>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>Copyright© 2021 - web design by Juan Carlos Vilcherrez </p>
+    </footer>
+</body>
+
+</html>
