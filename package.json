@@ -1,12 +1,22 @@
 {
-  "name": "mightyduckshockeyleague",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "hockey-league",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "autoprefixer": "10.4.14",
+    "bootstrap": "^5.3.0",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6",
+    "next": "13.4.6",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "18.2.0"
+  }
 }
