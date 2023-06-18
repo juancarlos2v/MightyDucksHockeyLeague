@@ -5,7 +5,11 @@ import img from "../../public/images/img2.jpg";
 export default function Home() {
   return (
     <>
-      <Image src={img} alt="images/img2.jpg" layout="responsive" />
+      <Image
+        src={img}
+        alt="Hockey"
+        layout="responsive"
+        priority={true} />
 
       <div className="d-flex flex-column align-items-center pt-3 justify-content-between">
         <h2>Upcoming Events</h2>

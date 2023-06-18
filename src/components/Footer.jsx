@@ -1,5 +1,5 @@
 'use client';
-const Footer = () => {
+function Footer() {
     return (
 
         <footer className="d-flex justify-content-center align-items-end">

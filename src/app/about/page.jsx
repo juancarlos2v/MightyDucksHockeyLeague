@@ -8,7 +8,7 @@ const page = () => {
     return (
 
         <Container className='text-center '>
-            <Image src={img} alt="images/img2.jpg" layout="responsive" />
+            <Image src={img} alt="images/img2.jpg" layout="responsive" priority={true} />
             <Row className='p-3'>
                 <h2>Mission</h2>
                 <p>To support young athletesliving in Chicago&apos northside neighborhoods, who have an interest in learning and playing hockey, with opportunities to learn and practice skills related to the game of hockey, specifically those skills around  </p>

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-const Header = () => {
+function Header() {
 
     const pages = [
         { url: "/", name: "Home" },
@@ -20,7 +20,10 @@ const Header = () => {
                         pages.map((page, index) => (
                             <Link
                                 key={index}
-                                href={page.url}>{page.name}
+                                href={page.url}
+                                as={page.url}
+                            >
+                                {page.name}
                             </Link>
                         ))
                     }
@@ -35,7 +38,6 @@ const Header = () => {
                     background-color: black;          
                 }
               
-            
             `}</style>
         </div>
     )
