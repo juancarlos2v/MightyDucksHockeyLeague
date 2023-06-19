@@ -2,7 +2,7 @@
 import Image from 'next/legacy/image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import img from "../../../public/images/about.jpg"
+import img from "../../public/images/about.jpg"
 
 const page = () => {
     return (
