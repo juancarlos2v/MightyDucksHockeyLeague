@@ -1,38 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+import Image from 'next/legacy/image'
+import img from "@images/rules.jpg"
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mighty Ducks Hockey League| Rules</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/3.css">
-</head>
-
-<body>
-    <header>
-        <div>
-            <h1>Mighty Ducks Hockey League</h1>
-        </div>
-        <img class="imgrules" src="./assets/hockey4.jpg" alt="player 9">
-    </header>
-    <nav class="menu">
-        <div class="button" id="home"><a href="./index.html">Home</a></div>
-        <div class="button" id="about"><a href="./about.html">About MDHL</a> </div>
-        <div class="button" id="contact"><a href="./contact.html">Contact</a></div>
-        <div class="button" id="games"><a href="./game-information.html">Games</a></div>
-        <div class="button" id="rules"><a href="#/">Play Rules</a></div>
-        <div class="button" id="register"> <a href="./register.html ">Register</a> </div>
-    </nav>
-    <div class="logo_rules"><img class="logo" src="./assets/logo.png " alt="MDHL logo"></div>
-    <div class="general">
-        <main>
-            <div class="title_rules">
+const page = () => {
+    return (
+        <>
+            <Image
+                src={img}
+                alt="Hockey"
+                layout="responsive"
+                priority={true}
+            />
+            <div className='p-5'>
                 <h2>RULES OF PLAY & POLICIES</h2>
                 <p>IHF rules shall govern MDHL play except as modified herein.</p>
-            </div>
-            <div class="container_rules">
                 <dl>
                     <dt>SPORTSMANSHIP</dt>
                     <dd>The common interest that members of the Association share is to inspire youth to practice the ideals of sportsmanship and fair play. Any player, coach, team, parent, spectator, administrator or referee whose behavior detracts from
@@ -57,11 +37,9 @@
                     </dd>
                 </dl>
             </div>
-        </main>
-    </div>
-    <footer>
-        <p>Copyright© 2021 - web design by Juan Carlos Vilcherrez </p>
-    </footer>
-</body>
 
-</html>
+        </>
+    )
+}
+
+export default page

@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+td,
+th,
+li,
+dt,
+dd {
+  margin: 0;
+  color: white;
+}
+a,
+label,
+input,
+input[type="radio"] {
+  text-decoration: none;
+  color: white;
+}
+
+table {
+  border: white solid 0.1rem;
+}
+
+.iml input {
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: solid white 0.1rem;
+  margin-top: 3rem;
+}
+
+tr {
+  border: white solid 0.1rem;
+}
+
+td,
+th {
+  padding: 1rem;
+}
