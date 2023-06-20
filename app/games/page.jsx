@@ -12,7 +12,7 @@ const page = () => {
             <div className="d-flex flex-column justify-content-center align-items-center p-4 text-center">
                 <h2>Fall Schedule</h2>
                 <p>*All Games Take place on Saturday</p>
-                <table>
+                <table className="w-100 mt-4">
                     <thead>
                         <tr>
                             <th> SEPTEMBER</th>

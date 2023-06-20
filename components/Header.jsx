@@ -15,7 +15,7 @@ function Header() {
         <div>
             <header>
                 <h1 className="container-fluid col-12 p-4 d-flex justify-content-end align-items-center text-lg-right text-center">Mighty Ducks Hockey League</h1>
-                <nav className="menu d-flex justify-content-around col-12 p-4 flex-wrap">
+                <nav className="menu d-flex flex-lg-row flex-md-row flex-column align-items-center justify-content-around col-12 p-lg-4 p-0 pb-4 flex-wrap">
                     {
                         pages.map((page, index) => (
                             <Link

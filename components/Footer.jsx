@@ -2,7 +2,7 @@
 function Footer() {
     return (
 
-        <footer className="d-flex justify-content-center align-items-center p-3">
+        <footer className="d-flex justify-content-center align-items-center text-center p-3">
             <p>Copyright© 2021 - web design by Juan Carlos Vilcherrez </p>
 
             <style jsx>{`

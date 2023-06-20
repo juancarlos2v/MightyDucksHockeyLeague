@@ -2,13 +2,17 @@
 import Image from 'next/legacy/image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import img from "../../public/images/about.jpg"
+import img from "@images/about.jpg"
 
 const page = () => {
     return (
 
         <Container className='text-center '>
-            <Image src={img} alt="images/img2.jpg" layout="responsive" priority={true} />
+            <Image
+                src={img}
+                alt="Hockey"
+                layout="responsive"
+                priority={true} />
             <Row className='p-3'>
                 <h2>Mission</h2>
                 <p>To support young athletesliving in Chicago&apos northside neighborhoods, who have an interest in learning and playing hockey, with opportunities to learn and practice skills related to the game of hockey, specifically those skills around  </p>
